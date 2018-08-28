@@ -10,9 +10,11 @@ const holdOn = new HoldOn();
 const key = 'some key';
 let status = holdOn.get(key);
 if(status !== 'hold') {
-    await holdOn.hold(key);
+    holdOn.hold(key);
+    
     await action(); // 模拟耗时操作
-    await holdOn.release(key);
+    
+    holdOn.release(key);
 }
 await holdOn.wait(key);
 // 结束耗时操作，继续流程
