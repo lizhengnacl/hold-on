@@ -1,6 +1,6 @@
 {
   "name": "koa2-hold-on",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
   "main": "index.js",
   "engines": {
@@ -10,7 +10,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "npm publish --registry http://registry.npmjs.org"
   },
-  "keywords": [],
+  "keywords": [
+    "koa2",
+    "concurrence",
+    "await",
+    "hold on",
+    "hold"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
