@@ -1,0 +1,4 @@
+.idea
+.nvmrc
+trigger.sh
+node_modules
