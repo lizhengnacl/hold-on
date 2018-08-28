@@ -3,7 +3,7 @@
 
 ## 示例
 ```
-const HoldOn = require('hold-on');
+const HoldOn = require('koa2-hold-on');
 const holdOn = new HoldOn();
 
 // 判断是否进入耗时操作

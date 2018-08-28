@@ -1,6 +1,6 @@
 {
-  "name": "hold-on",
-  "version": "0.1.0",
+  "name": "koa2-hold-on",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
   "engines": {
